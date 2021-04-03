@@ -1,7 +1,9 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Logo</router-link>
+    <router-link to="/tutors">Find a tutor</router-link>
+    <router-link to="/register">Be a tutor</router-link>
+    <router-link to="/messages">Messages</router-link><!--isAuth-->
   </div>
   <router-view />
 </template>

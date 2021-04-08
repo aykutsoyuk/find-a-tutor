@@ -3,7 +3,8 @@
     <router-link to="/">Logo</router-link>
     <router-link to="/tutors">Find a tutor</router-link>
     <router-link to="/register">Be a tutor</router-link>
-    <router-link to="/messages">Messages</router-link><!--isAuth-->
+    <router-link to="/messages">Messages</router-link
+    ><!--isAuth-->
   </div>
   <router-view />
 </template>
@@ -13,7 +14,6 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
